@@ -3,34 +3,34 @@ let handler = async (m, { conn, text }) => {
   let ext= `
 ╭══════════════════════
 ║╭─❉ *𝐁𝐈𝐎𝐃𝐀𝐓𝐀 𝐎𝐖𝐍𝐄𝐑* ❉─
-║│➸ *Nama* : LannXzy🤸
-║│➸ *Jantina* : Lelaki
+║│➸ *Nama* : LαrαsChαnn🤸
+║│➸ *Jantina* : Perempuan
 ║│➸ *Tempat Tinggal* :
-║│➸ Malaysia
+║│➸ Indonesia
 ║│➸ *Agama* : Islam
-║│➸ *Umur* : 15
-║│➸ *Kelas* : 9.Smp/Ting.3
-║│➸ *Status* : males pcrn
+║│➸ *Umur* : 16
+║│➸ *Kelas* : 10 Smk
+║│➸ *Status* : I'm Busy
 ║│➸ *Hobi* : 
-║│➸ Anime,Futsal,Coding
+║│➸ Anime,Music,Coding
 ║╰────────────────────
 ╰══════════════════════
 ╭══════════════════════
 ║╭─❉ *𝐒𝐎𝐒𝐈𝐀𝐋 𝐌𝐄𝐃𝐈𝐀* ❉──
 ║│➸ *No.Owner* : 
-║│➸ wa.me/60189830350
+║│➸ wa.me/6285759662798
 ║│➸ *No.Bot* : 
-║│➸ wa.me/60149431385
+║│➸ wa.me/6285759662798
 ║│➸ *Chanel Youtube* : 
 ║│➸ https://bit.ly/3uCVyeR
-║│➸ *Gmail* : Xnxx@gmail.com
-║│➸ *Github* : males isi
+║│➸ *Gmail* : laras020103@gmail.com
+║│➸ *Github* : https://github.com/Larasatilaras
 ║╰─────────────────────
 ╰═══════════════════════
 _Oke segitu aja_
 
 `.trim()
-conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'Biodata')).buffer(), ext, 'Sc By LynnXzy💌', 'Nomor Owner👤', '.owner', 'Donasi💰', '.donasi', 'Sewa Bot🤖', '.sewa', m)
+conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'Biodata')).buffer(), ext, 'Sc By LαrαsChαnn💌', 'Nomor Owner👤', '.owner', 'Donasi💰', '.donasi', 'Sewa Bot🤖', '.sewa', m)
 
 }
 handler.help = ['infoowner', 'infocreator']
